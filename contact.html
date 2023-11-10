@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="helper.css"> 
+        <meta name="description" content="contact">
+        <link href="logo-no-background.png" rel="icon">
+        <title>Contact</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="index.html">
+                    <img src="icons8-home-100.png" alt="home icon">
+                </a>
+                <h1>Contact</h1>
+            </nav>
+        </header>
+        <main>
+            <article class="contact">
+                <h2>GET IN TOUCH</h2>
+                <form>
+                    <!-- <fieldset> -->
+                        <!-- <legend>Please fill the form</legend> -->
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                        <br>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                        <br>
+                        <label for="days">Preferred Day(s):</label>
+                        <select id="days">
+                            <optgroup label="Weekday">
+                                <option value="monday">Monday</option>
+                                <option value="tuesday">Tuesday</option>
+                                <option value="wednesday">Wednesday</option>
+                                <option value="thursday">Thursday</option>
+                                <option value="friday">Friday</option>
+                            </optgroup>
+                            <optgroup label="Weekend">
+                                <option value="saturday">Saturday</option>
+                                <option value="sunday">Sunday</option>
+                            </optgroup>
+                        </select>
+                        <br>
+                        <label for="time">Preferred Time:</label>
+                        <datalist id="times">
+                            <option value="10AM - 12PM"></option>
+                            <option value="12PM - 2PM"></option>
+                            <option value="2PM - 4PM"></option>
+                            <option value="4PM - 6PM"></option>
+                        </datalist>
+                        <input list="times" id="time"></select>
+                        <br>
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" required></textarea>
+                        <br>
+                        <br>
+                        <button type="submit">SUBMIT</button>
+                    <!-- </fieldset> -->
+                </form>
+            </article>
+        </main>
+        <footer>
+            <p>All rights reserved</p>
+            <div>
+                <a href="https://github.com/pratham7554">
+                    <img src="images/git.png" alt="GitHub" width="30" height="30">
+                </a>
+                <a href="https://www.linkedin.com/in/pratham-mittal-8161b3223">
+                    <img src="images/linkedIn.png" alt="LinkedIn" width="30" height="30">
+                </a>
+                <a href="https://twitter.com/home">
+                    <img src="images/twitter.jpeg" alt="Twitter" width="30" height="30">
+                </a>
+                <a href="https://instagram.com/pratham_mittal?igshid=MW54OTNndHVyb2NpYg==">
+                    <img src="images/ig.jpeg" alt="Instagram" width="30" height="30">
+                </a>
+            </div>
+        </footer>
+    </body>
+</html>
